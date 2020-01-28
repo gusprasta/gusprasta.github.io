@@ -1637,7 +1637,11 @@ ul.hb-list li h6 {
 }
 
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+  .mt-150 {
+    margin-top: 110px !important;
+}
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
 	.container {position: relative;}
 	.content{padding: 100px 40px;}
@@ -1696,6 +1700,9 @@ ul.hb-list li h6 {
 	
 }
 
+@media only screen and (max-width:400px) {
+  .footer .social{display:none;}
+}
 
 @media only screen and (max-width:479px) {
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
@@ -1736,7 +1743,7 @@ ul.hb-list li h6 {
 	.services .block-service .col-sm-6:last-child{padding-bottom:0;}
 	.block-quote{padding:20px;}
 	.footer{position:absolute;top:-41px;z-index:10;right:0px;}
-	.footer .social{display:none;}
+	
 	.footer .copyright {float:left;margin-left:1px; -webkit-transform: none;transform: none;}
 	.listing a.btn-2, .listing a.btn-1, .listing-large a.btn-2, .listing-large a.btn-1  {display:none;}
 	.listing-large .listing-event .data.right, .listing-large .listing-event .data.left{width:auto;margin:0;padding:0;float:none;}
