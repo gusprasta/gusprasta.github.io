@@ -1704,7 +1704,7 @@ ul.hb-list li h6 {
   .footer .social{display:none;}
 }
 
-@media only screen and (max-width:479px) {
+@media only screen and (max-width:300px) {
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
 	.container {position: relative;}
 	.content{padding: 100px 40px;}
